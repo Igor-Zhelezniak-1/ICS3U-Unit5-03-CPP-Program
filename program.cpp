@@ -8,6 +8,8 @@
 #include <string>
 
 int MarkCalculator(std::string number) {
+    // Calculate mark
+
     int mark;
     if (number == "R") {
         mark = 25;
@@ -43,6 +45,8 @@ int MarkCalculator(std::string number) {
 
 
 int main() {
+    // This is main function
+
     std::string numberFromUser;
     int calculatedMark;
 
